@@ -1,0 +1,402 @@
+/*--------FONDO DEL LOGIN--------*/
+.fondo-login {
+    background-Image: url('img/Login.jpg');
+    background-Size: cover;
+    background-Position: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-Content: center; 
+    align-Items: center;
+    padding: 20px;
+}
+@media (max-width: 768px) {
+    .fondo-login {
+        background-size: auto; 
+        padding: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .fondo-login {
+        flex-direction: column;
+        background-size: cover;
+        padding: 5px; 
+    }
+}
+/*--------FONDO DEL LOGIN--------*/
+/*--------ALERTA INFORMACION--------*/
+.toast-mensaje-informacion {
+    background: darkblue;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    top: 5px;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 90vw;
+}
+@media (max-width: 768px) {
+    .toast-mensaje-informacion {
+        font-size: 16px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .toast-mensaje-informacion {
+        font-size: 14px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+/*--------ALERTA INFORMACION--------*/
+/*--------ALERTA CORRECTO--------*/
+.toast-mensaje-correcto {
+    background: darkgreen;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    top: 5px;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 90vw;
+}
+@media (max-width: 768px) {
+    .toast-mensaje-correcto {
+        font-size: 16px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .toast-mensaje-correcto {
+        font-size: 14px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+/*--------ALERTA CORRECTO--------*/
+/*--------ALERTA INCORRECTO--------*/
+.toast-mensaje-incorrecto {
+    background: darkred;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    top: 5px;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 90vw;
+}
+@media (max-width: 768px) {
+    .toast-mensaje-incorrecto {
+        font-size: 16px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .toast-mensaje-incorrecto {
+        font-size: 14px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+/*--------ALERTA INCORRECTO--------*/
+/*--------ALERTA PELIGRO--------*/
+.toast-mensaje-peligro {
+    background: darkgoldenrod;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    top: 5px;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 90vw;
+}
+@media (max-width: 768px) {
+    .toast-mensaje-peligro {
+        font-size: 16px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .toast-mensaje-peligro {
+        font-size: 14px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+/*--------ALERTA PELIGRO--------*/
+/*--------LOGO PARA LOGIN--------*/
+.logo-menu-login {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20vw;
+    max-width: 250px;
+    height: auto;
+    z-index: 10;
+}
+@media (max-width: 768px) {
+    .logo-menu-login {
+        left: 46%;
+        width: 35vw;
+        max-width: 200px; 
+    }
+}
+@media (max-width: 480px) {
+    .logo-menu-login {
+        left: 50%;
+        width: 70vw; 
+        max-width: 200px; 
+    }
+}
+/*--------LOGO PARA LOGIN--------*/
+/*--------MENU LOGIN--------*/
+.menu-login {
+    background: rgba(0, 0, 0, 0.7); 
+    top: 0px;
+    width: 20%;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative; 
+}
+@media (max-width: 768px) {
+    .menu-login {
+        width: 50%;
+        padding: 15px;
+        max-width: 250px;
+    }
+}
+@media (max-width: 480px) {
+    .menu-login {
+        width: 80%;
+        padding: 10px;
+        max-width: 200px;
+    }
+}
+/*--------MENU LOGIN--------*/
+/*--------ICONO USUARIO LOGIN--------*/
+.icono-usuario-login {
+    color: white;
+    font-size: 6rem;
+    padding: 10px; 
+    margin-bottom: 10px; 
+}
+@media (max-width: 768px) {
+    .icono-usuario-login {
+        font-size: 5rem; 
+    }
+}
+@media (max-width: 480px) {
+    .icono-usuario-login {
+        font-size: 4rem;
+    }
+}
+/*--------ICONO USUARIO LOGIN--------*/
+/*--------TITULO MENU LOGIN--------*/
+.titulo-menu-login {
+    color: white;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+@media (max-width: 768px) {
+    .titulo-menu-login {
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .titulo-menu-login {
+        font-size: 0.7rem;
+        margin-bottom: 15px;
+    }
+}
+/*--------TITULO MENU LOGIN--------*/
+/*--------DIRECCION Y ORIENTACION DE CAMPO LOGIN--------*/
+.direccion-campo-login {
+    display: flex;
+    flex-Direction: column;
+    width: 100%;
+}
+.orientacion-campo-login {
+    display: flex;
+    align-Items: center;
+    justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .direccion-campo-login {
+        flex-direction: column;
+        width: 100%; 
+    }
+    .orientacion-campo-login {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+/*--------DIRECCION Y ORIENTACION DE CAMPO LOGIN--------*/
+/*--------ESPACIOS ENTRE COMPONENTES LOGIN--------*/
+.espacio-componentes-login-1 {
+    margin-Bottom: 50px;
+}
+.espacio-componentes-login-2 {
+    margin-Bottom: 30px;
+}
+.espacio-componentes-login-3 {
+    margin-Bottom: 15px;
+}
+@media (max-width: 768px) {
+    .espacio-componentes-login-1 {
+        margin-bottom: 45px;
+    }
+    .espacio-componentes-login-2 {
+        margin-bottom: 30px; 
+    }
+    .espacio-componentes-login-3 {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 480px) {
+    .espacio-componentes-login-1 {
+        margin-bottom: 45px; 
+    }
+    .espacio-componentes-login-2 {
+        margin-bottom: 30px; 
+    }
+    .espacio-componentes-login-3 {
+        margin-bottom: 15px;
+    }
+}
+/*--------ESPACIOS ENTRE COMPONENTES LOGIN--------*/
+/*--------TEXTO EMERGENTE DEL CAMPO LOGIN--------*/
+.texto-emergente-campo-login {
+    color: #00FFAA; 
+    text-Align: left; 
+    font-Size: 0.8rem; 
+    padding-top: 0px;
+    padding-left: 8px;
+    position: absolute;
+}
+@media (max-width: 768px) {
+    .texto-emergente-campo-login {
+        font-size: 0.7rem;
+        margin: 0px;
+        padding-left: 7px; 
+    }
+}
+@media (max-width: 480px) {
+    .texto-emergente-campo-login {
+        font-size: 0.6rem;
+        margin: 0px;
+        padding-left: 6px;
+    }
+}
+/*--------TEXTO EMERGENTE DEL CAMPO LOGIN--------*/
+/*--------CAMPO INPUT DEL LOGIN--------*/
+.entryarea{
+    position: relative;
+    height: 45px;
+    line-height: 40px;
+    outline: none;
+}
+
+input{
+    width: 115%;
+    color: #ffffff;
+    padding-top: 30px;
+    line-height: 10px;
+    padding-left: 5px;
+    font-size: 1.2rem; 
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    transition: 0.1s ease;
+    outline: none;
+}
+
+.labelLine{
+    position: absolute;
+    top: 23px;
+    left: 8px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: transparent;
+    transition: 0.2s ease;
+    white-space: nowrap;
+}
+
+input:focus,
+input:valid{
+    color: aqua;
+    border: 4px solid aqua;
+    top: 20px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid aqua;
+    outline: none;
+    box-shadow: none;
+}
+input:focus + .labelLine,
+input:valid + .labelLine{
+    color: aqua;
+    top: 15px;
+    font-size: 0.8rem;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    transform: translate(-15px, -16px) scale(0.88);
+}
+
+@media (max-width: 768px) {
+    input {
+        width: 110%;
+        font-size: 1rem;
+        padding-top: 32px; 
+    }
+
+    .labelLine {
+        font-size: 1rem;
+        top: 20px;
+        left: 3px;
+    }
+}
+@media (max-width: 480px) {
+    input {
+        width: 105%;
+        font-size: 0.9rem;
+        padding-top: 30px; 
+    }
+    .labelLine {
+        font-size: 0.9rem;
+        top: 18px;
+        left: 3px; 
+    }
+}
+/*--------CAMPO INPUT DEL LOGIN--------*/

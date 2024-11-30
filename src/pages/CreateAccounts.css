@@ -1,0 +1,402 @@
+/*--------FONDO DEL CREATEACCOUNTS--------*/
+.fondo-createAccounts {
+    background-Image: url('img/CreateAccounts.jpg');
+    background-Size: cover;
+    background-Position: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-Content: center; 
+    align-Items: center;
+    padding: 20px;
+}
+@media (max-width: 768px) {
+    .fondo-createAccounts {
+        background-size: auto; 
+        padding: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .fondo-createAccounts {
+        flex-direction: column;
+        background-size: cover;
+        padding: 5px; 
+    }
+}
+/*--------FONDO DEL CREATEACCOUNTS--------*/
+/*--------ALERTA INFORMACION--------*/
+.toast-mensaje-informacion {
+    background: darkblue;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    top: 5px;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 90vw;
+}
+@media (max-width: 768px) {
+    .toast-mensaje-informacion {
+        font-size: 16px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .toast-mensaje-informacion {
+        font-size: 14px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+/*--------ALERTA INFORMACION--------*/
+/*--------ALERTA CORRECTO--------*/
+.toast-mensaje-correcto {
+    background: darkgreen;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    top: 5px;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 90vw;
+}
+@media (max-width: 768px) {
+    .toast-mensaje-correcto {
+        font-size: 16px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .toast-mensaje-correcto {
+        font-size: 14px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+/*--------ALERTA CORRECTO--------*/
+/*--------ALERTA INCORRECTO--------*/
+.toast-mensaje-incorrecto {
+    background: darkred;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    top: 5px;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 90vw;
+}
+@media (max-width: 768px) {
+    .toast-mensaje-incorrecto {
+        font-size: 16px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .toast-mensaje-incorrecto {
+        font-size: 14px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+/*--------ALERTA INCORRECTO--------*/
+/*--------ALERTA PELIGRO--------*/
+.toast-mensaje-peligro {
+    background: darkgoldenrod;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    top: 5px;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 90vw;
+}
+@media (max-width: 768px) {
+    .toast-mensaje-peligro {
+        font-size: 16px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .toast-mensaje-peligro {
+        font-size: 14px;
+        margin-top: 5px;
+        top: 10px;
+        left: 16px;
+    }
+}
+/*--------ALERTA PELIGRO--------*/
+/*--------LOGO PARA CREATEACCOUNTS--------*/
+.logo-menu-createAccounts {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20vw;
+    max-width: 250px;
+    height: auto;
+    z-index: 10;
+}
+@media (max-width: 768px) {
+    .logo-menu-createAccounts {
+        left: 46%;
+        width: 30vw;
+        max-width: 200px; 
+    }
+}
+@media (max-width: 480px) {
+    .logo-menu-createAccounts {
+        left: 50%;
+        width: 70vw; 
+        max-width: 200px; 
+    }
+}
+/*--------LOGO PARA CREATEACCOUNTS--------*/
+/*--------MENU CREATEACCOUNTS--------*/
+.menu-createAccounts {
+    background: rgba(0, 0, 0, 0.7); 
+    top: 0px;
+    width: 20%;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative; 
+}
+@media (max-width: 768px) {
+    .menu-createAccounts {
+        width: 50%;
+        padding: 15px;
+        max-width: 250px;
+    }
+}
+@media (max-width: 480px) {
+    .menu-createAccounts {
+        width: 80%;
+        padding: 10px;
+        max-width: 200px;
+    }
+}
+/*--------MENU CREATEACCOUNTS--------*/
+/*--------ICONO USUARIO CREATEACCOUNTS--------*/
+.icono-usuario-createAccounts {
+    color: white;
+    font-size: 6rem;
+    padding: 10px; 
+    margin-bottom: 10px; 
+}
+@media (max-width: 768px) {
+    .icono-usuario-createAccounts {
+        font-size: 5rem; 
+    }
+}
+@media (max-width: 480px) {
+    .icono-usuario-createAccounts {
+        font-size: 4rem;
+    }
+}
+/*--------ICONO USUARIO CREATEACCOUNTS--------*/
+/*--------TITULO MENU CREATEACCOUNTS--------*/
+.titulo-menu-createAccounts {
+    color: white;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+@media (max-width: 768px) {
+    .titulo-menu-createAccounts {
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .titulo-menu-createAccounts {
+        font-size: 0.7rem;
+        margin-bottom: 15px;
+    }
+}
+/*--------TITULO MENU CREATEACCOUNTS--------*/
+/*--------DIRECCION Y ORIENTACION DE CAMPO CREATEACCOUNTS--------*/
+.direccion-campo-createAccounts {
+    display: flex;
+    flex-Direction: column;
+    width: 100%;
+}
+.orientacion-campo-createAccounts {
+    display: flex;
+    align-Items: center;
+    justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .direccion-campo-createAccounts {
+        flex-direction: column;
+        width: 100%; 
+    }
+    .orientacion-campo-createAccounts {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+/*--------DIRECCION Y ORIENTACION DE CAMPO CREATEACCOUNTS--------*/
+/*--------ESPACIOS ENTRE COMPONENTES CREATEACCOUNTS--------*/
+.espacio-componentes-createAccounts-1 {
+    margin-Bottom: 50px;
+}
+.espacio-componentes-createAccounts-2 {
+    margin-Bottom: 30px;
+}
+.espacio-componentes-createAccounts-3 {
+    margin-Bottom: 15px;
+}
+@media (max-width: 768px) {
+    .espacio-componentes-createAccounts-1 {
+        margin-bottom: 45px;
+    }
+    .espacio-componentes-createAccounts-2 {
+        margin-bottom: 30px; 
+    }
+    .espacio-componentes-createAccounts-3 {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 480px) {
+    .espacio-componentes-createAccounts-1 {
+        margin-bottom: 45px; 
+    }
+    .espacio-componentes-createAccounts-2 {
+        margin-bottom: 30px; 
+    }
+    .espacio-componentes-createAccounts-3 {
+        margin-bottom: 15px;
+    }
+}
+/*--------ESPACIOS ENTRE COMPONENTES CREATEACCOUNTS--------*/
+/*--------TEXTO EMERGENTE DEL CAMPO CREATEACCOUNTS--------*/
+.texto-emergente-campo-createAccounts {
+    color: #00FFAA; 
+    text-Align: left; 
+    font-Size: 0.8rem; 
+    padding-top: 0px;
+    padding-left: 8px;
+    position: absolute;
+}
+@media (max-width: 768px) {
+    .texto-emergente-campo-createAccounts {
+        font-size: 0.7rem;
+        margin: 0px;
+        padding-left: 7px; 
+    }
+}
+@media (max-width: 480px) {
+    .texto-emergente-campo-createAccounts {
+        font-size: 0.6rem;
+        margin: 0px;
+        padding-left: 6px;
+    }
+}
+/*--------TEXTO EMERGENTE DEL CAMPO CREATEACCOUNTS--------*/
+/*--------CAMPO INPUT DEL CREATEACCOUNTS--------*/
+.entryarea{
+    position: relative;
+    height: 45px;
+    line-height: 40px;
+    outline: none;
+}
+
+input{
+    width: 115%;
+    color: #ffffff;
+    padding-top: 30px;
+    line-height: 10px;
+    padding-left: 5px;
+    font-size: 1.2rem; 
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    transition: 0.1s ease;
+    outline: none;
+}
+
+.labelLine{
+    position: absolute;
+    top: 23px;
+    left: 8px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: transparent;
+    transition: 0.2s ease;
+    white-space: nowrap;
+}
+
+input:focus,
+input:valid{
+    color: aqua;
+    border: 4px solid aqua;
+    top: 20px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid aqua;
+    outline: none;
+    box-shadow: none;
+}
+input:focus + .labelLine,
+input:valid + .labelLine{
+    color: aqua;
+    top: 15px;
+    font-size: 0.8rem;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    transform: translate(-15px, -16px) scale(0.88);
+}
+
+@media (max-width: 768px) {
+    input {
+        width: 110%;
+        font-size: 1rem;
+        padding-top: 32px; 
+    }
+
+    .labelLine {
+        font-size: 1rem;
+        top: 20px;
+        left: 3px;
+    }
+}
+@media (max-width: 480px) {
+    input {
+        width: 105%;
+        font-size: 0.9rem;
+        padding-top: 30px; 
+    }
+    .labelLine {
+        font-size: 0.9rem;
+        top: 18px;
+        left: 3px; 
+    }
+}
+/*--------CAMPO INPUT DEL CREATEACCOUNTS--------*/
